@@ -58,7 +58,7 @@
 		},
 		{
 			"target": "esp32s2",
-			"features":["qio_ram"],
+			"features":["qio_ram","LWIP","PSRAM","mbedTLS"],
 			"idf_libs":["qio","80m"],
 			"bootloaders":[
 				["qio","80m"],
